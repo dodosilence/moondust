@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="moondust:war exploded">
+    <output-path>$PROJECT_DIR$/target/moondust</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="moondust" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/moondust/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="moondust/web/Web" />
+    </root>
+  </artifact>
+</component>
