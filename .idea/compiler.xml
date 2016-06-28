@@ -23,12 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="moondust" />
-        <module name="silence" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="moondust" target="1.5" />
-      <module name="silence" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
