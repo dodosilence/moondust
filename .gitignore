@@ -2,3 +2,9 @@
 moondust.iml
 target/
 .idea/
+.eclipse
+build
+.build
+out
+.out
+
