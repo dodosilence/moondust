@@ -3,6 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index</welcome-file>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
 
 
 
@@ -35,6 +41,6 @@
     <!-- 指定Spring Bean的配置文件所在目录。默认配置在WEB-INF目录下 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring/web/spring-context.xml</param-value>
+        <param-value>classpath:spring/context/spring-context.xml</param-value>
     </context-param>
 </web-app>
