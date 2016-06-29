@@ -113,6 +113,11 @@
             <id>dev</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
+                <jdk>1.8</jdk>
+                <property>
+                    <name>target-env</name>
+                    <value>dev</value>
+                </property>
             </activation>
             <!-- 以下配置properties中用到一些变量，如数据库连接参数、日志打印等 -->
             <properties>
@@ -121,7 +126,11 @@
                 <log.other.level>DEBUG</log.other.level>
                 <log.root.level>DEBUG</log.root.level>
                 <log.stdout.ref><![CDATA[<appender-ref ref="stdout" />]]></log.stdout.ref>
+                <maven.compiler.source>1.7</maven.compiler.source>
+                <maven.compiler.target>1.7</maven.compiler.target>
+                <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
             </properties>
+
         </profile>
     </profiles>
 
